@@ -1,4 +1,5 @@
 const getAllProductsStatic = async (req, res) => {
+    throw new Error('testing middleware - async_express_errors -')
     res.status(200).json({msg: 'products testing route'});
 };
 
